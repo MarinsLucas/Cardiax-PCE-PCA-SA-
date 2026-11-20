@@ -108,7 +108,7 @@ As figuras vão para `results/figures/`. As das AHAs ficam em `results/aha/<q>/A
 
 ## Origem dos dados
 
-As simulações foram feitas em um solver de elementos finitos (saídas `.h5`; ver
+As simulações foram feitas com o solver de elementos finitos
+[cardiax](https://github.com/FISIOCOMP-UFJF/cardiax) (saídas `.h5`; ver
 `data/aha/simulation_order.csv`). Os CSVs de `data/aha/` foram extraídos desses arquivos, com a média
-por região AHA usando `aha_map.csv` (elemento → região). O script de extração não está neste
-repositório.
+por região AHA usando `aha_map.csv` (elemento → região).
